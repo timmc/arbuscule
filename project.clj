@@ -1,4 +1,4 @@
-(defproject org.timmc/arbuscule "0.2.0"
+(defproject org.timmc/arbuscule "0.2.0-SNAPSHOT"
   :description "Read the full tree of project dependencies"
   :url "https://github.com/timmc/arbuscule"
   :license {:name "Eclipse Public License"
