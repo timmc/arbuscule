@@ -5,8 +5,9 @@
 
 (defn resolve-deps
   [project]
-  (aether/resolve-dependencies :coordinates
-                               (:dependencies project)))
+  (aether/resolve-dependencies
+   :coordinates (:dependencies project)
+   :repositories (:repositories project)))
 
 (defn dump-deps
   [project path]
